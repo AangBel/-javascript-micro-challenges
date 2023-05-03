@@ -61,9 +61,9 @@ let number = [5];
 let answerOneThreeZero = 'arrayOne' + 'arrayTwo' + 'arrayThree' + number
 let iNeedSleep = [['arrayOne','ArrayTwo','ArrayThree'], [number]];
 for (i = 0; i < iNeedSleep.length; i++){
-    console.log(answerOneThreeZero);
+    console.log(['arrayOne','ArrayTwo','ArrayThree'], [number]);
 };
-//currently broken- i know as its only logging the name of the 
+//currently broken- i know as its only logging the name of the iNeedSleep
 
 
 
@@ -100,7 +100,11 @@ function sumYears(employees) {
 
 //-------------------------------------------------------------------
 
-// # Loops and Two Dimensional Arrays Checkpoint
+// #150 Loops and Two Dimensional Arrays Checkpoint
 
 // Create a function that takes in an array of arrays. Add up all of the numbers in all of the arrays and return the value.
 
+let ohShipsIDidntGetToFinish = [[3,5,7], [9,4,6]];
+for (o = 0; o < iNeedSleep.length; o++){
+    console.log()
+}
