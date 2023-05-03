@@ -45,9 +45,11 @@ iAmsoTired(20, 20);
 let potatoPhone = [7, 45, 60, 13, 27];
 //  addPotatos = (Number(potatoFunction[0])) + (Number(potatoFunction[4]));
 
-let addPotatoPhone = potatoPhone[0] + potatoPhone[4];
-[addPotatoPhone.length - 1] + [addPotatoPhone[0]] 
-console.log(addPotatoPhone);
+//let addPotatoPhone = potatoPhone[0] + potatoPhone[4];
+console.log((potatoPhone[potatoPhone.length - 1]) + (potatoPhone[0])); 
+//console.log(addPotatoPhone);
+
+
 //-------------------------------------------------------------------
 // #130 Loops, Arrays, and Concatenation Checkpoint
 // Create a function that takes two parameters. 
