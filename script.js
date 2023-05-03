@@ -33,9 +33,9 @@ function iAmsoTired(numberOne, numberTwo) {
 }
 ;
 // Test 
-// iAmsoTired(80, 8);
-// iAmsoTired(2, 80);
-// iAmsoTired(20, 20);
+iAmsoTired(80, 8);
+iAmsoTired(2, 80);
+iAmsoTired(20, 20);
 
 //-------------------------------------------------------------------
 // #120 Array Checkpoint
@@ -46,6 +46,7 @@ let potatoPhone = [7, 45, 60, 13, 27];
 //  addPotatos = (Number(potatoFunction[0])) + (Number(potatoFunction[4]));
 
 let addPotatoPhone = potatoPhone[0] + potatoPhone[4];
+[addPotatoPhone.length - 1] + [addPotatoPhone[0]] 
 console.log(addPotatoPhone);
 //-------------------------------------------------------------------
 // #130 Loops, Arrays, and Concatenation Checkpoint
@@ -64,11 +65,6 @@ for (i = 0; i < iNeedSleep.length; i++){
     console.log(['arrayOne','ArrayTwo','ArrayThree'], [number]);
 };
 //currently broken- i know as its only logging the name of the iNeedSleep
-
-
-
-
-
 
 
 //-------------------------------------------------------------------
