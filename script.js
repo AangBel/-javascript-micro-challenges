@@ -53,9 +53,17 @@ console.log(addPotatoPhone);
 //The first parameter is an array, the second parameter will be a number.
 // Your function should return a string that combines -
 //all of the values starting at the index of the number passed in through the end of the array.
+let arrayOne = 'dog';
+let arrayTwo = 'cat';
+let arrayThree = 'fish';
+let number = [5]; 
 
-//let iNeedSleep = [[1,2,3], [number]];
-
+let answerOneThreeZero = 'arrayOne' + 'arrayTwo' + 'arrayThree' + number
+let iNeedSleep = [['arrayOne','ArrayTwo','ArrayThree'], [number]];
+for (i = 0; i < iNeedSleep.length; i++){
+    console.log(answerOneThreeZero);
+};
+//currently broken- i know as its only logging the name of the 
 
 
 
